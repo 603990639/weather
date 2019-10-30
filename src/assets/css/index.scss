@@ -1,0 +1,44 @@
+/*
+$g-media-md: 992px;
+$g-media-sm: 991px;
+$g-media-xs: 767px;
+
+*/
+
+
+.auto-img{
+  width: 100%;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/*
+html{
+  @media screen and (min-width: $g-media-md) {
+  font-size: fontSize(992px);
+  }
+  @media screen and (max-width: $g-media-sm) {
+    font-size: fontSize(991px);
+  }
+    @media screen and (max-width: $g-media-xs) {
+      font-size: fontSize(767px);
+    }
+}  
+
+@function fontSize($w) {
+  @return $w / 375px;
+}
+*/
